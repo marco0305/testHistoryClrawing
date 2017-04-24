@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os, csv
 
-os.chdir("D:\\dropbox\\python\\InterNet\\history")
+os.chdir("D:\\dropbox\\python\\tseHistoryClrawing")
 
 #TODO: 設定起迄日期，西元年作運算，python支援計算，先由2004/10/15日開始。
 startDate = time.strptime("2014/10/06", "%Y"+'/'+'%m'+'/'+"%d") #轉換文字到時間格式(time.strptime)
